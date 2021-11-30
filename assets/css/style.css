@@ -1,10 +1,3 @@
-/**
-* Template Name: DevFolio - v4.3.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -460,12 +453,8 @@ a:hover {
   letter-spacing: 1px;
 }
 
-#header .logo a {
-  color: #fff;
-}
-
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 #header.header-scrolled {
@@ -737,25 +726,28 @@ a:hover {
 }
 
 .hero .hero-title {
-  color: #fff;
-  font-weight: 600;
+  color: rgb(122, 115, 115);
+  font-weight: 400;
   font-size: 3rem;
 }
 
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    font-size: 3rem;
+    font-family:cursive;
   }
 }
 
 .hero .hero-subtitle {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 200;
+  color: #cde1f8;
 }
 
 @media (min-width: 768px) {
   .hero .hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-family: cursive;
   }
 }
 
@@ -784,7 +776,7 @@ a:hover {
 
 .hero-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #793b79;
 }
 
 .hero-single .breadcrumb .breadcrumb-item:before {
